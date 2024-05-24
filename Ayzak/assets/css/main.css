@@ -335,7 +335,7 @@ header .home .home__text h5 i {
   margin-top: 10.4rem;
 }
 
-.join > .container {
+.join>.container {
   border-radius: 1.2px;
   display: flex;
   align-items: center;
@@ -417,6 +417,7 @@ footer {
   background-color: #fafafb;
   margin-top: 5.2rem;
   padding-top: 10rem;
+  padding-bottom: 2.9rem;
 }
 
 footer .footer__top {
@@ -475,7 +476,6 @@ footer .copyright {
   justify-content: space-between;
   border-top: 1px solid #cbcbcb;
   margin-top: 8.5rem;
-  margin-bottom: 2.9rem;
 }
 
 footer .copyright .copyright__text {
@@ -486,16 +486,16 @@ footer .copyright .copyright__text {
 
 footer .copyright__language {
   display: flex;
-  margin-top: 2.4rem; 
+  margin-top: 2.4rem;
 }
 
-footer .copyright .copyright__language .language__img  {
+footer .copyright .copyright__language .language__img {
   width: 2.6rem;
   height: 1.4rem;
   margin-top: 5px;
 }
 
-footer .copyright .copyright__language .language__img img{
+footer .copyright .copyright__language .language__img img {
   margin-left: 2.5rem;
 }
 
@@ -510,5 +510,5 @@ footer .copyright .copyright__language i {
   font-size: 14px;
   margin-top: 3px;
   margin-left: 8px;
-  
+
 }
