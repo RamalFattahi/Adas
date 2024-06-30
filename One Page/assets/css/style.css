@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+body {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #f4e8d8;
+  padding: 3.3rem 4.7rem;
+}
+
+header nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  gap: 5.6rem;
+  margin-left: 214px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  color: #14203e;
+}
+
+header div a {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+header div .button {
+  background-color: #f6f0e8;
+  border-radius: 10px;
+  padding: 13px 30px;
+}
+
+header div .button1 {
+  background-color: #14203e;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 13px 30px;
+}
+
+.modern {
+  background-color: #fffcf8;
+  padding: 13rem 0;
+  border-bottom: 1px solid #f4e8d8;
+}
+
+.modern .modern__text {
+  text-align: center;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.modern .modern__text h1 {
+  color: #14203e;
+  font-weight: 700;
+  font-size: 6.6rem;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+.modern .modern__text h3 {
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #14203e;
+  margin-bottom: 65px;
+}
+
+.modern .button a {
+  background-color: #14203e;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 25px 40px;
+  font-size: 18px;
+}
+
+.design {
+  padding-bottom: 6.2rem;
+}
+
+.design .design__title h3 {
+  color: #14203e;
+  margin: 3rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.design .design__title h3::before,
+.design .design__title h3::after {
+  background: #14203e33;
+  height: 1px;
+  content: "";
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.design .design__title h3::before {
+  right: 1.2em;
+  margin-left: -50%;
+}
+
+.design .design__title h3::after {
+  left: 1.2em;
+  margin-right: -50%;
+}
+
+.design .design__posts {
+  display: flex;
+  gap: 30px;
+}
+
+.design .design__posts .design__box .design__img {
+  width: 28rem;
+  height: 23rem;
+}
+
+.design .design__posts .design__box .design__text h2 {
+  font-size: 22px;
+  color: #14203e;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.design .design__posts .design__box .design__text span {
+  font-size: 14px;
+  color: #14203e;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+  header nav div a {
+    width: 100%;
+    display: flex;
+    padding: 7px 20px;
+  }
+  .modern {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .design .design__title h3 {
+    width: 50%;
+    text-align: center;
+  }
+
+  .modern .modern__text h1 {
+    font-size: 4rem;
+  }
+
+  .modern .modern__text h3 {
+    font-size: 1.6rem;
+  }
+
+  .modern .modern__text .button a {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+
+  .design {
+    margin-left: 58%;
+    text-align: center;
+  }
+
+  .design .design__title h3 {
+    width: 100%;
+  }
+
+  .design .design__posts .design__box .design__text h2 {
+    font-size: 18px;
+  }
+
+  .design .design__posts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modern .modern__text .button a {
+    padding: 10px 18px;
+  }
+
+  .design {
+    margin-left: 40%;
+  }
+}
